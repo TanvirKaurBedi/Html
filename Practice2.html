@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <title></title>
+   </head>
+   <style>
+      .table{
+          border: blue;
+          width: 150px;
+          margin-left: auto;
+          margin-right: auto;
+       }
+      body{
+          background-color: aqua;
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+      }
+      tr{
+          height:10px;
+      }
+
+   </style>
+   <body style ="padding-top: 20px; font-size:10px;">
+
+    
+    <div class = "col-md-10  col-md-offset-1">                                                                                                 
+        <div class="well">
+    <table class="table table-bordered">
+           
+               <tr class="success">
+                   <td colspan = "2"> New User Registration</td>
+               </tr>
+             
+             <tbody>
+                 <tr>
+                     <td>Email</td>
+                     <td><input type="text" id="txtEmail"placeholder="email"> </td>
+                 </tr>
+
+                 <tr>
+                    <td>Password</td>
+                    <td><input type="password" id="txtPassword"placeholder="password"> </td>
+                </tr>
+
+                <tr>
+                    <td>Confirm Password</td>
+                    <td><input type="password" id="txtPassword"placeholder="password"> </td>
+                </tr>
+             </tbody>
+
+             <tr class="success">
+             <td colspan="2"><input type="button"id="btnRegister"value="Register"class="btn btn-success"> </td>
+            </tr>
+        </table>
+        </div>
+    </div>
+    <div class="modal fade" tabindex="-1" id="successModal"data-keyboard="false"data-backdrop="static">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="'button"class="close"data-dismiss="modal">$times;</button>
+                    <h4>Success</h4>
+                </div>
+                <div class="modal-body">
+                    <h2>Registration succesful</h2>
+                </div>
+                <div class="modal-footer" data-dismiss="modal"class="btn btn-success">Close
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap.min.js "></script>
+    <script src=" "></script>
+
+    
+   </body>
+</html>
